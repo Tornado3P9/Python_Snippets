@@ -7,16 +7,16 @@ def convDecToBin(number):
         number = number // 2
     return list(reversed(h))
 
-convDecToBin(42); # 0b101010
+convDecToBin(42) # [1,0,1,0,1,0]
 
 
 # The following method can be used to convert a decimal number to hex.
 
-def convDecToHex(n):
+def convDecToHex(number):
     i = []
-    while n > 0:
-        i.append(n%16)
-        n = n // 16
+    while number > 0:
+        i.append(number%16)
+        number = number // 16
     return list(reversed(i))
 
 convDecToHex(32) # [2,0]
@@ -32,17 +32,7 @@ def convBinToDec1(binList):
         result = result * 2
     return result // 2
 
-def convBinToDec2(binList):
-    binList = list(reversed(binList))
-    result = 0
-    for x in binList:
-        print(x)
-        result = result + x
-        result = result * 2
-    return result // 2
-
 convBinToDec1([1,0,0,1,1]) # 19
-convBinToDec2([1,0,0,1,1]) # 19
 
 
 bin(19) # 0b10011
@@ -60,4 +50,3 @@ f'{0b1011010:#0}' # '90'
 # :#o -> converts to octal
 # :#x -> converts to hexadecimal
 # :#0 -> converts to decimal as above example
-
