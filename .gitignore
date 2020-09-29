@@ -43,17 +43,19 @@ Thumbs.db
 desktop.ini
 *.pyo
 *~
+*.save
 
 # Images #
 ##########
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.svg
-*.ico
-*.psd
+#*.png
+#*.jpg
+#*.jpeg
+#*.gif
+#*.bmp
+#*.svg
+#*.ico
+#*.psd
+#*.xcf
 
 *.ai
 *.eps
@@ -96,6 +98,15 @@ nbproject
 *.iml
 *.ipr
 composer.lock
+
+# TexMaker LaTeX #
+##################
+*.pyg
+*.aux
+*.toc
+*.lof
+*.lol
+*.out
 
 # except these files #
 ######################
