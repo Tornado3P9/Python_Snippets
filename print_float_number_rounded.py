@@ -20,5 +20,5 @@ format(number, ".3f") #1.000
 
 # forth way:
 
-round(result, 2) #1.00
-round(result, 3) #1.000
+round(number, 2) #1.00
+round(number, 3) #1.000
