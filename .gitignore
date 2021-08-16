@@ -47,15 +47,15 @@ desktop.ini
 
 # Images #
 ##########
-#*.png
-#*.jpg
-#*.jpeg
-#*.gif
-#*.bmp
-#*.svg
-#*.ico
-#*.psd
-#*.xcf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ico
+*.psd
+*.xcf
 
 *.ai
 *.eps
