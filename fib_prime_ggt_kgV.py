@@ -59,6 +59,11 @@ def kgV(a,b):
 
 print(kgV(4,9)) #https://docs.python.org/3/whatsnew/3.8.html#new-features
 
+def kgV2(a,b):
+    return (a * b) / ggt(a, b)
+
+print(kgV2(4,9))
+
 from math import lcm #Erst ab python3.9
 
 print(lcm(4,9))
