@@ -1,5 +1,7 @@
 # files to ignore
 
+.venv
+
 # Compiled source #
 ###################
 *.com
